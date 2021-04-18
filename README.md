@@ -23,8 +23,8 @@ If the key already exists, its current value is updated
 In both cases, the key must be displayed as a result
 Format:
 
-<key> <value>
-Eg 34 5
+key value
+34 5
 
 # The removal command obey the following rules:
 
@@ -32,8 +32,8 @@ If the key exists, it is removed, and its value is displayed as a result
 If the key does not exist, -1 is displayed as a result
 Format:
 
-<key> D
-Eg 34 D
+key D
+34 D
 
 # The lookup command obey the following rules:
 
@@ -41,9 +41,9 @@ If the key exists, its value is displayed as a result
 If the key does not exist, -1 is displayed as a result
 Format:
 
-<key>
+key
 34
 
-You can also use the program with the commad.lst file ti check the results.
+You can also use the program with the commad.lst file to check the results.
 
 # Use ./my_crd < command.lst
