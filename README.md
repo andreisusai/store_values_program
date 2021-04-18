@@ -23,8 +23,7 @@ If the key already exists, its current value is updated
 In both cases, the key must be displayed as a result
 Format:
 
-key value \n
-34 5
+key value
 
 # The removal command obey the following rules:
 
@@ -32,8 +31,7 @@ If the key exists, it is removed, and its value is displayed as a result
 If the key does not exist, -1 is displayed as a result
 Format:
 
-key D \n
-34 D
+key D
 
 # The lookup command obey the following rules:
 
@@ -41,8 +39,7 @@ If the key exists, its value is displayed as a result
 If the key does not exist, -1 is displayed as a result
 Format:
 
-key \n
-34
+key
 
 You can also use the program with the commad.lst file to check the results.
 
